@@ -1,3 +1,4 @@
+Google Ad Manager Reporting API
 Overview
 This project is a Node.js backend service that allows users to create, manage, and run Google Ad Manager (GAM) reports dynamically. It stores report definitions in a database, synchronizes them with Google Ad Manager, executes reports on demand, and returns paginated report results via REST APIs. The system avoids unnecessary report recreation by using a definition hash to detect changes and update existing GAM reports only when required.
 
