@@ -38,21 +38,6 @@ Google Ad Manager API
 
 ES Modules
 
-Project Structure
-src/
-├── db/
-│ └── database.js
-├── routes/
-│ └── report.route.js
-├── services/
-│ ├── gam.js
-│ └── report.service.js
-├── utils/
-│ ├── date.util.js
-│ └── hash.util.js
-├── app.js
-└── server.js
-
 Environment Variables
 
 Create a .env file in the root directory:
