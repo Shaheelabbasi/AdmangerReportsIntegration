@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@bull-board/api": "^6.12.7",
+    "@bull-board/express": "^6.12.7",
+    "@google-ads/admanager": "^0.5.0",
+    "bullmq": "^5.58.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "express-basic-auth": "^1.2.1",
+    "nodemon": "^3.1.11",
+    "pg": "^8.16.3",
+    "pg-copy-streams": "^7.0.0"
+  }
+}
